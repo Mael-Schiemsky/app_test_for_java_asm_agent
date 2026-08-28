@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+
+# Gradle wrapper jar (keep properties)
+gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin plugin data
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# Compiled classes and jars
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
