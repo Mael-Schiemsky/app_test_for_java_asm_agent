@@ -22,7 +22,11 @@ public class App {
         int[] a = {1, 2, 3};
         GetOne g1 = new PlusOne();
 
-        String params = args[0];
+        String params = "";
+        // Check if any parameters were passed
+        if(args.length > 0){
+           params = args[0];
+        }
 
         if(params.contains("p")){
             System.out.println("\n[\u001B[3m"+ "APP" + "\u001B[0m] ParameterExample");
